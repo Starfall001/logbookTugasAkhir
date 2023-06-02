@@ -1,14 +1,13 @@
 package controllers
 
 import (
+	"github.com/dgrijalva/jwt-go"
+	"github.com/go-playground/validator/v10"
+	"github.com/gofiber/fiber/v2"
 	"logbook_ta/database"
 	"logbook_ta/models/request"
 	"logbook_ta/utils"
 	"time"
-
-	"github.com/dgrijalva/jwt-go"
-	"github.com/go-playground/validator/v10"
-	"github.com/gofiber/fiber/v2"
 )
 
 func LoginController(ctx *fiber.Ctx) error {
@@ -29,7 +28,6 @@ func LoginController(ctx *fiber.Ctx) error {
 			"error":   errValidate.Error(),
 		})
 	}
-
 	// CHECK VALIDATION USER DATA
 	var user request.UserLoginRequest
 	if err := database.DB.First(&user, "username = ?", loginRequest.Username).Error; err != nil {
