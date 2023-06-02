@@ -5,6 +5,7 @@ import (
 	"github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v2"
 	"logbook_ta/database"
+	"logbook_ta/models/entity"
 	"logbook_ta/models/request"
 	"logbook_ta/utils"
 	"time"
@@ -29,10 +30,10 @@ func LoginController(ctx *fiber.Ctx) error {
 		})
 	}
 	// CHECK VALIDATION USER DATA
-	var user request.UserLoginRequest
+	var user entity.User
 	if err := database.DB.First(&user, "username = ?", loginRequest.Username).Error; err != nil {
 		return ctx.Status(fiber.StatusUnauthorized).JSON(fiber.Map{
-			"message": "wrong credentials",
+			"message": "wrong username",
 		})
 	}
 
@@ -40,13 +41,13 @@ func LoginController(ctx *fiber.Ctx) error {
 	isValid := utils.CheckPasswordHash(loginRequest.Password, user.Password)
 	if !isValid {
 		return ctx.Status(fiber.StatusUnauthorized).JSON(fiber.Map{
-			"message": "wrong credentials",
+			"message": "wrong password",
 		})
 	}
 
 	// GENERATE TOKEN
 	claims := jwt.MapClaims{}
-	claims["name"] = user.Username
+	claims["username"] = user.Username
 	claims["password"] = user.Password
 	claims["exp"] = time.Now().Add(time.Minute * 2).Unix()
 

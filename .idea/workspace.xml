@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9887f9c1-1b31-4dd0-9476-46dd5b9fbabd" name="Changes" comment="first commit(bikin auth)">
+    <list default="true" id="9887f9c1-1b31-4dd0-9476-46dd5b9fbabd" name="Changes" comment="pisahkan be dan fe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/auth.controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/auth.controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/controllers/auth.controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/controllers/auth.controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/models/response/user.response.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/models/response/user.response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/be/go.sum" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="46b1409c-cea6-417e-916f-96b0ee9cbeed" />
+        <option name="url" value="https://github.com/gitinisial/logbookTugasAkhir.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectId" id="2QeJoLwHmO6mZVA5FVgudplW0TP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,7 +55,7 @@
     &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/src/logbook_ta&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/src/logbook_ta/be&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
@@ -48,13 +63,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\src\logbook_ta\be" />
       <recent name="D:\src\logbook_ta\controllers" />
       <recent name="D:\src\logbook_ta\routes" />
       <recent name="D:\src\logbook_ta\database" />
       <recent name="D:\src\logbook_ta\models" />
-      <recent name="D:\src\logbook_ta\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\src\logbook_ta\be" />
+      <recent name="D:\src\logbook_ta" />
       <recent name="D:\src\logbook_ta\models\response" />
       <recent name="D:\src\logbook_ta\models\entity" />
       <recent name="D:\src\logbook_ta\models\request" />
@@ -93,7 +110,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit(bikin auth)" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit(bikin auth)" />
+    <MESSAGE value="pisahkan be dan fe" />
+    <option name="LAST_COMMIT_MESSAGE" value="pisahkan be dan fe" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

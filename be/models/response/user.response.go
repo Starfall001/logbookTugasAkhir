@@ -9,3 +9,7 @@ type UserResponse struct {
 	// UpdatedAt time.Time `json:"updated_at"`
 	// DeletedAt gorm.DeletedAt `json:"-"`
 }
+
+func (UserResponse) TableName() string {
+	return "users"
+}
