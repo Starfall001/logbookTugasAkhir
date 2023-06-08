@@ -1,0 +1,45 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"ALL\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"9887f9c1-1b31-4dd0-9476-46dd5b9fbabd\" name=\"Changes\" comment=\"pisahkan be dan fe\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/be/controllers/auth.controller.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/be/controllers/auth.controller.go\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/be/models/response/user.response.go\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/be/models/response/user.response.go\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/go.sum\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/be/go.sum\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Go File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"GOROOT\" url=\"file://C:/Program Files/Go\" />\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"46b1409c-cea6-417e-916f-96b0ee9cbeed\" />\r\n        <option name=\"url\" value=\"https://github.com/gitinisial/logbookTugasAkhir.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2QeJoLwHmO6mZVA5FVgudplW0TP\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/src/logbook_ta/be&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\src\\logbook_ta\\be\" />\r\n      <recent name=\"D:\\src\\logbook_ta\\controllers\" />\r\n      <recent name=\"D:\\src\\logbook_ta\\routes\" />\r\n      <recent name=\"D:\\src\\logbook_ta\\database\" />\r\n      <recent name=\"D:\\src\\logbook_ta\\models\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\src\\logbook_ta\\be\" />\r\n      <recent name=\"D:\\src\\logbook_ta\" />\r\n      <recent name=\"D:\\src\\logbook_ta\\models\\response\" />\r\n      <recent name=\"D:\\src\\logbook_ta\\models\\entity\" />\r\n      <recent name=\"D:\\src\\logbook_ta\\models\\request\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"go build logbook_ta\" type=\"GoApplicationRunConfiguration\" factoryName=\"Go Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"logbook_ta\" />\r\n      <working_directory value=\"$PROJECT_DIR$\" />\r\n      <kind value=\"PACKAGE\" />\r\n      <package value=\"logbook_ta\" />\r\n      <directory value=\"$PROJECT_DIR$\" />\r\n      <filePath value=\"$PROJECT_DIR$/main.go\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Go Build.go build logbook_ta\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"first commit(bikin auth)\" />\r\n    <MESSAGE value=\"pisahkan be dan fe\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"pisahkan be dan fe\" />\r\n  </component>\r\n  <component name=\"VgoProject\">\r\n    <settings-migrated>true</settings-migrated>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2dcaf44b28d09d528896e1ea9004ccc73e2b265d)
++++ b/.idea/workspace.xml	(date 1686199733780)
+@@ -4,11 +4,8 @@
+     <option name="autoReloadType" value="ALL" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="9887f9c1-1b31-4dd0-9476-46dd5b9fbabd" name="Changes" comment="pisahkan be dan fe">
++    <list default="true" id="9887f9c1-1b31-4dd0-9476-46dd5b9fbabd" name="Changes" comment="perbaikan login request">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/be/controllers/auth.controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/controllers/auth.controller.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/be/models/response/user.response.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/models/response/user.response.go" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/be/go.sum" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -24,6 +21,11 @@
+   </component>
+   <component name="GOROOT" url="file://C:/Program Files/Go" />
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="master" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+@@ -111,7 +113,8 @@
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="first commit(bikin auth)" />
+     <MESSAGE value="pisahkan be dan fe" />
+-    <option name="LAST_COMMIT_MESSAGE" value="pisahkan be dan fe" />
++    <MESSAGE value="perbaikan login request" />
++    <option name="LAST_COMMIT_MESSAGE" value="perbaikan login request" />
+   </component>
+   <component name="VgoProject">
+     <settings-migrated>true</settings-migrated>
