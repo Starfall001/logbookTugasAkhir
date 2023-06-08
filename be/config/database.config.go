@@ -84,6 +84,7 @@ func RunMigration() {
 	err := database.DB.AutoMigrate(
 
 		entity.User{},
+		entity.Karya{},
 	)
 
 	if err != nil {

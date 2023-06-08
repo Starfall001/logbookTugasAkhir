@@ -19,17 +19,17 @@ func userRoute(app *fiber.App) {
 }
 
 func v1Route(app *fiber.App) {
-	//v1 := app.Group("/api/v1")
+	v1 := app.Group("/api/v1")
 	//
-	//// TODO
+	//// Karya
 	//
-	//todo := v1.Group("/todos")
+	todo := v1.Group("/karya")
+
+	todo.Post("/", controllers.CreateKarya)
+
+	todo.Get("/", controllers.GetAllKarya)
 	//
-	//todo.Post("/", controllers.CreateTodo)
-	//
-	//todo.Get("/", middleware.Middleware, controllers.GetAllTodo)
-	//
-	//todo.Get("/:id", middleware.Middleware, controllers.GetTodoById)
+	todo.Get("/:id", controllers.GetKaryaById)
 	//
 	//todo.Patch("/:id", controllers.UpdateTodoById)
 	//

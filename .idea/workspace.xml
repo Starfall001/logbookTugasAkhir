@@ -5,28 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9887f9c1-1b31-4dd0-9476-46dd5b9fbabd" name="Changes" comment="adding front end">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be/controllers/karya.controller.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be/models/entity/karya.entity.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be/models/entity/logbook.entity.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be/models/request/karya.request.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/be/models/response/karya.response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/client/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fe/client/src/users/ViewUser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/config/database.config.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/config/database.config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/models/response/user.response.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/models/response/user.response.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/routes/v1.route.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/routes/v1.route.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/fe/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fe/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fe/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/fe/client/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Go File" />
       </list>
     </option>
@@ -62,35 +56,43 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2QeJoLwHmO6mZVA5FVgudplW0TP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/src/logbook_ta/be&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "D:/src/logbook_ta/be/models/response",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\src\logbook_ta\be\models\response" />
+      <recent name="D:\src\logbook_ta\be\models\request" />
+      <recent name="D:\src\logbook_ta\be\models\entity" />
       <recent name="D:\src\logbook_ta\be" />
       <recent name="D:\src\logbook_ta\controllers" />
-      <recent name="D:\src\logbook_ta\routes" />
-      <recent name="D:\src\logbook_ta\database" />
-      <recent name="D:\src\logbook_ta\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\src\logbook_ta\be" />
@@ -125,7 +127,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/frontend_percobaan" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
