@@ -2,9 +2,11 @@ package controllers
 
 import (
 	"github.com/gofiber/fiber/v2"
+	"log"
 	"logbook_ta/database"
 	"logbook_ta/models/entity"
 	"logbook_ta/models/request"
+	"time"
 )
 
 func CreateKarya(c *fiber.Ctx) error {
@@ -17,13 +19,23 @@ func CreateKarya(c *fiber.Ctx) error {
 		})
 	}
 
+	tanggalSubmit, err := time.Parse("2006-01-02", karyaRequest.TanggalSubmit)
+	if err != nil {
+		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{"error": "Invalid tanggalSubmit value"})
+	}
+
+	tanggalPublish, err := time.Parse("2006-01-02", karyaRequest.TanggalPublish)
+	if err != nil {
+		return c.Status(fiber.StatusBadRequest).JSON(fiber.Map{"error": "Invalid tanggalPublish value"})
+	}
+
 	karya := entity.Karya{}
 	karya.Link = karyaRequest.Link
-	karya.TanggalSubmit = karyaRequest.TanggalSubmit
-	karya.TanggalPublish = karyaRequest.TanggalPublish
+	karya.TanggalSubmit = tanggalSubmit
+	karya.TanggalPublish = tanggalPublish
 
-	if errDb := database.DB.Create(&karyaRequest).Error; errDb != nil {
-		//log.Println("category.controller.go => CreateCategory :: ", errDb)
+	if errDb := database.DB.Preload("User").Create(&karyaRequest).Error; errDb != nil {
+		log.Println(errDb)
 		return c.Status(500).JSON(fiber.Map{
 			"message": "internal server error",
 		})
