@@ -4,22 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9887f9c1-1b31-4dd0-9476-46dd5b9fbabd" name="Changes" comment="adding front end">
-      <change afterPath="$PROJECT_DIR$/be/controllers/karya.controller.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/be/models/entity/karya.entity.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/be/models/entity/logbook.entity.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/be/models/request/karya.request.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/be/models/response/karya.response.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/src/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fe/client/src/users/ViewUser.js" afterDir="false" />
+    <list default="true" id="9887f9c1-1b31-4dd0-9476-46dd5b9fbabd" name="Changes" comment="mau nambahin crud karya">
+      <change afterPath="$PROJECT_DIR$/be/utils/customTime.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/be/config/database.config.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/config/database.config.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/be/models/response/user.response.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/models/response/user.response.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/be/routes/v1.route.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/routes/v1.route.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fe/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/fe/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fe/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fe/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fe/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/fe/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fe/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/fe/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/controllers/karya.controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/controllers/karya.controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/models/entity/karya.entity.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/models/entity/karya.entity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/be/models/request/karya.request.go" beforeDir="false" afterPath="$PROJECT_DIR$/be/models/request/karya.request.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +73,7 @@
     "last_opened_file_path": "D:/src/logbook_ta/be/models/response",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -150,7 +141,8 @@
     <MESSAGE value="pisahkan be dan fe" />
     <MESSAGE value="perbaikan login request" />
     <MESSAGE value="adding front end" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding front end" />
+    <MESSAGE value="mau nambahin crud karya" />
+    <option name="LAST_COMMIT_MESSAGE" value="mau nambahin crud karya" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>

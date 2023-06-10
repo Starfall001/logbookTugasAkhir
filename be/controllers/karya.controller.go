@@ -18,9 +18,9 @@ func CreateKarya(c *fiber.Ctx) error {
 	}
 
 	karya := entity.Karya{}
+	karya.Link = karyaRequest.Link
 	karya.TanggalSubmit = karyaRequest.TanggalSubmit
 	karya.TanggalPublish = karyaRequest.TanggalPublish
-	karya.Link = karyaRequest.Link
 
 	if errDb := database.DB.Create(&karyaRequest).Error; errDb != nil {
 		//log.Println("category.controller.go => CreateCategory :: ", errDb)
