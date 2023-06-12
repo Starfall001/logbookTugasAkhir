@@ -19,31 +19,24 @@ func userRoute(app *fiber.App) {
 }
 
 func v1Route(app *fiber.App) {
-	//v1 := app.Group("/api/v1")
-	//
-	//// TODO
-	//
-	//todo := v1.Group("/todos")
-	//
-	//todo.Post("/", controllers.CreateTodo)
-	//
-	//todo.Get("/", middleware.Middleware, controllers.GetAllTodo)
-	//
-	//todo.Get("/:id", middleware.Middleware, controllers.GetTodoById)
-	//
-	//todo.Patch("/:id", controllers.UpdateTodoById)
-	//
-	//todo.Delete("/:id", controllers.DeleteTodoById)
-	//
-	//// CATEGORY
-	//
-	//category := v1.Group("/category")
-	//
-	//category.Post("/", controllers.CreateCategory)
-	//
-	//category.Get("/", controllers.GetAllCategory)
-	//
-	//category.Get("/:id", controllers.GetCategoryById)
-	//
-	//category.Delete("/:id", controllers.DeleteCategoryById)
+	v1 := app.Group("/api/v1")
+
+	//	Karya
+
+	karya := v1.Group("/karya")
+	karya.Post("/", controllers.CreateKarya)
+	karya.Get("/", controllers.GetAllKarya)
+	karya.Get("/:id", controllers.GetKaryaById)
+	karya.Patch("/:id", controllers.UpdateKaryaById)
+	karya.Delete("/:id", controllers.DeleteKaryaById)
+
+	//	LOGBOOK
+
+	logbook := v1.Group("/logbook")
+	logbook.Post("/", controllers.CreateLogbook)
+	logbook.Get("/", controllers.GetAllLogbook)
+	logbook.Get("/:id", controllers.GetLogbookById)
+	logbook.Patch("/:id", controllers.UpdateLogbookById)
+	logbook.Delete("/:id", controllers.DeleteTLogbookById)
+
 }
