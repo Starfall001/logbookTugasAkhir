@@ -1,10 +1,13 @@
 package request
 
-import "logbook_ta/models/response"
-
 type KaryaRequest struct {
-	UserID         uint `json:"user_id" form:"user_id"`
-	User           response.UserResponse
+	UserID         uint   `json:"user_id" form:"user_id"`
+	TanggalSubmit  string `json:"tanggal_submit" form:"tanggal_submit"`
+	TanggalPublish string `json:"tanggal_publish" form:"tanggal_publish"`
+	Link           string `json:"link" form:"link" `
+}
+
+type KaryaUpdateRequest struct {
 	TanggalSubmit  string `json:"tanggal_submit" form:"tanggal_submit"`
 	TanggalPublish string `json:"tanggal_publish" form:"tanggal_publish"`
 	Link           string `json:"link" form:"link" `

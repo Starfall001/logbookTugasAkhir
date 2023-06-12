@@ -7,6 +7,7 @@ import (
 
 type Logbook struct {
 	ID         uint           `json:"id" gorm:"primary_key"`
+	UserID     uint           `json:"user_id"`
 	User       User           `json:"user"`
 	Judul      string         `json:"judul"`
 	Topik      string         `json:"topik"`

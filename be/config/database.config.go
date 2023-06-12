@@ -85,6 +85,7 @@ func RunMigration() {
 
 		entity.User{},
 		entity.Karya{},
+		entity.Logbook{},
 	)
 
 	if err != nil {
