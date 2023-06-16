@@ -1,6 +1,22 @@
 # logbookTugasAkhir
 Aplikasi ini dibuat untuk memenuhi matakuliah Teknologi Informasi Kesehatan
-
+##### Hal yang sudah dibuat
+- Backend dari sistem berupa
+  - CRUD user register
+  - CRUD login
+  - CRUD logbook
+  - CRUD karya
+- UI
+---
+##### Kekurangan dari backend
+- User role antara mahasiswa dan dosen bagaimana?
+- Belum terintegrasi dengan database kampus
+- Belum bisa upload file pada formulir bimbingan
+- Belum membuat crud buat komen pada formulir bimbingan
+---
+##### Kekurangan dari front end
+- Masih butuh perbaikan UI
+- Masih belum dibuat front end nya
 
 Dokumentasi Api
 
@@ -64,13 +80,4 @@ $ go run main.go    // posisikan di folder be
 |`DELETE`|http://127.0.0.1:8000/api/v1/logbook/{logbookId} | Delete logbook |
 ---
 
-##### Kekurangan dari backend
-- User role antara mahasiswa dan dosen bagaimana?
-- Belum terintegrasi dengan database kampus
-- Belum bisa upload file pada formulir bimbingan
-- Belum membuat crud buat komen pada formulir bimbingan
----
-##### Kekurangan dari front end
-- Masih butuh perbaikan UI
-- Masih belum dibuat front end nya
 
