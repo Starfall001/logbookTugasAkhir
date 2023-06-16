@@ -62,3 +62,15 @@ $ go run main.go    // posisikan di folder be
 |`GET`|http://127.0.0.1:8000/api/v1/logbook/{logbookId} | Get logbook by id |
 |`PATCH`|http://127.0.0.1:8000/api/v1/logbook/{logbookId} | Update logbook by id |
 |`DELETE`|http://127.0.0.1:8000/api/v1/logbook/{logbookId} | Delete logbook |
+---
+
+##### Kekurangan dari backend
+- User role antara mahasiswa dan dosen bagaimana?
+- Belum terintegrasi dengan database kampus
+- Belum bisa upload file pada formulir bimbingan
+- Belum membuat crud buat komen pada formulir bimbingan
+---
+##### Kekurangan dari front end
+- Masih butuh perbaikan UI
+- Masih belum dibuat front end nya
+
